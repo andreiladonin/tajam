@@ -722,6 +722,11 @@ body{
     color: #9d97af;
 }
 
+.footer__top-form-email::-moz-placeholder{
+    color: rgba(143, 143, 143, 0.7);
+}
+
+
 .footer__top-form{
     margin-bottom: 27px;
 }
@@ -730,8 +735,9 @@ body{
     display: block;
     width: 70px;
     height: 45px;
+    color: rgba(143, 143, 143, 0.7) ;
     margin-left: 10px;
-    background:rgba(156, 148, 174, 0.7) url('../img/paper.png') no-repeat;
+    background:rgba(143, 143, 143, 0.7) url('../img/paper.png') no-repeat;
     background-position: 50% 50%;
     border: none;
 }
